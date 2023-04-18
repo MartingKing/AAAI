@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.loper7.date_time_picker.DateTimePicker
+        android:id="@+id/dateTimePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorTextWhite"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showLabel="true"
+        app:textSize="16sp"
+        app:themeColor="@color/text_color_2" />
+
+    <TextView
+        android:id="@+id/tvDateTimePickerValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp"
+        android:text=""
+        android:textColor="@color/text_color_2"
+        android:textSize="16sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTimePicker" />
+
+
+    <com.bsyun.aaai.RippleBackground
+        android:id="@+id/rb_start"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:onClick="startAnimation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvDateTimePickerValue"
+        app:rb_color="@color/text_color_2"
+        app:rb_duration="4000"
+        app:rb_radius="32dp"
+        app:rb_rippleAmount="4"
+        app:rb_scale="6">
+
+        <TextView
+            android:id="@+id/tv_start"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/bg_border_gray_0"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:onClick="startPaipan"
+            android:padding="10dp"
+            android:text="起盘"
+            android:textColor="@drawable/selector_start_color"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_toEndOf="@+id/tv_start"
+            android:background="@drawable/bg_border_gray_0"
+            android:gravity="center"
+            android:onClick="resetTime"
+            android:padding="10dp"
+            android:text="重置时间"
+            android:textColor="@drawable/selector_start_color"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:layout_toRightOf="@+id/tv_start" />
+
+        <ImageView
+            android:id="@+id/ib_yu"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/dp_10"
+            android:src="@mipmap/icon_start" />
+
+    </com.bsyun.aaai.RippleBackground>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

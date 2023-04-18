@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="app_line">#e5e6e8</color>
+    <color name="colorDDDDDD">#DDDDDD</color>
+    <color name="coloreee">#eeeeee</color>
+
+
+    <color name="text_color_1">#1e2029</color>
+    <color name="text_color_2">#242831</color>
+    <color name="text_color_3">#828283</color>
+    <color name="text_c1c1c1">#c1c1c1</color>
+    <color name="text_color_4">#c6c8cc</color>
+    <color name="text_color_5">#afb2b7</color>
+    <color name="text_color_6">#454d5d</color>
+    <color name="text_color_7">#98989a</color>
+    <color name="text_color_8">#a4a5a5</color>
+    <color name="tab_checked">#6086FE</color>
+    <color name="tab_unchecked">#C4C5C7</color>
+    <color name="black">#000000</color>
+    <color name="color999">#FF999999</color>
+    <color name="window_bg">#F9F9F9</color>
+    <color name="color333">#FF333333</color>
+    <color name="colorE94D4E">#E94D4E</color>
+    <color name="color979798">#979798</color>
+    <color name="color7F9EFE">#7F9EFE</color>
+    <color name="color6286FE">#6286FE</color>
+    <color name="colorF3F3F3">#F3F3F3</color>
+    <color name="colorfdfdfd">#fdfdfd</color>
+    <color name="color393d47">#393d47</color>
+    <color name="colorf6f6f7">#f6f6f7</color>
+    <color name="color25affa">#25affa</color>
+    <color name="color7f7d7d">#7f7d7d</color>
+    <color name="color333333">#333333</color>
+    <color name="color222222">#222222</color>
+    <color name="color666666">#666666</color>
+    <color name="colorFAFAFA">#FAFAFA</color>
+    <color name="darkRed">#702216</color>
+    <color name="lightGray">#323232</color>
+    <color name="deepGray">#8B8B8B</color>
+    <color name="red">#f00</color>
+    <color name="white">#ffffff</color>
+
+
+    <color name="colorBlue">#ff0195ff</color>
+    <color name="colorRed">#cd3636</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#fff0f0f0</color>
+
+    <color name="blue_color">#FF03A9F4</color>
+    <color name="blue_color_light">#58b2f2</color>
+    <color name="colorPrimary_light_trsp" >#7b393a3f</color>
+    <color name="green1">#4CAF50</color>
+    <color name="green">#388E3C</color>
+    <color name="light">#C8E6C9</color>
+    <color name="orig">#FF9800</color>
+    <color name="halforig">#FAfad298</color>
+    <color name="dark">#212121</color>
+    <color name="green2">#757575</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="yellow"> #CDDC39</color>
+    <color name="gray2">#cccccc</color>
+    <color name="gray3">#999999</color>
+    <color name="accent_color">#FF22A4D4</color>
+    <color name="Indigo_colorPrimaryDark">#303f9f</color>
+    <color name="Indigo_colorPrimary">#3f51b5</color>
+    <color name="Indigo_nav_color">#4675FF</color>
+
+    <color name="primary">#E91E63</color>
+    <color name="primary_dark">#39000000</color>
+    <color name="primary_light">#F8BBD0</color>
+    <color name="accent">#8BC34A</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
+
+    <color name="yima">#FF0000</color>
+    <color name="jilao">#FF00FF</color>
+    <!--底部分享Dialog-->
+
+    <color name="touming">#00000000</color>
+    <color name="huanglibg">#fbf5e5</color>
+    <color name="huanglibg_border">#ac3e34</color>
+</resources>
